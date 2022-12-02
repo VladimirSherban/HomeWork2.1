@@ -10,6 +10,7 @@ public class Main {
         task7();
         task8();
     }
+
     public static void task1() {
         System.out.println("Задача 1");
         var dog = 8;
@@ -19,6 +20,7 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
     }
+
     public static void task2() {
         System.out.println("Задача 2");
         var dog = 8;
@@ -31,6 +33,7 @@ public class Main {
         paper = paper + 4;
         System.out.println("dog = " + dog + " cat = " + cat + " paper = " + paper);
     }
+
     public static void task3() {
         System.out.println("Задача 3");
         var dog = 8.0;
@@ -43,6 +46,7 @@ public class Main {
         paper = paper - 7639;
         System.out.println("dog = " + dog + " cat = " + cat + " paper = " + paper);
     }
+
     public static void task4() {
         System.out.println("Задача 4");
         var friend = 12;
@@ -52,6 +56,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
     }
+
     public static void task5() {
         System.out.println("Задача 5");
         var frog = 3.5;
@@ -63,6 +68,7 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
     }
+
     public static void task6() {
         System.out.println("Задача 6");
         var firstBoxer = 78.2;
@@ -71,6 +77,7 @@ public class Main {
         var weightDifferent = secondBoxer - firstBoxer;
         System.out.println("Общий вес боксеров = " + totalWeighOfBoxers + "кг" + " Разница между весами бойцов = " + weightDifferent + "кг");
     }
+
     public static void task7() {
         System.out.println(" Задача 7");
         var firstBoxer = 78.2;
@@ -80,6 +87,7 @@ public class Main {
         System.out.println("Вычитание из большего веса меньшего " + weightDifferent);
         System.out.println("С помощь функции остаток от деления " + weightDifferent2);
     }
+
     public static void task8() {
         System.out.println("Задача 8");
         var workingHours = 640.0;
@@ -89,8 +97,8 @@ public class Main {
 
         var newWorkers = 94.0;
         totalEmployees = totalEmployees + newWorkers;
-        var timeSpend = workingHours / totalEmployees;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + timeSpend +
+        var openingHours = totalEmployees * timeOfOneEmployee;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + openingHours +
                 " часов работы может быть поделено между сотрудниками");
     }
 }
